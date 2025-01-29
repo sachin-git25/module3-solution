@@ -43,18 +43,14 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: x-large;
    font-variant: normal;
-   display: inline;
-   margin: auto;
+ 
 
 }
 
 /*****************Container Fluid Custom *******************/
 .container-fluid{
-    background-color: grey;
-    margin:auto;
     width:500px;
     height: 700px;
-    overflow: auto;
 }
 
 
@@ -78,4 +74,14 @@
 text-align: center;
 border-style: groove;
 border-color: black;
+}
+
+.row{
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#menuitem{
+    background-color: grey;
 }
